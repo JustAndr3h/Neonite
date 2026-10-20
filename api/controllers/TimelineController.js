@@ -12,13 +12,13 @@ module.exports = {
         let { version, versionGlobal, versionLegacy } = getVersionInfo(req);
         const keychain = loadJSON("../responses/keychain.json")
         var config = ini.parse(fs.readFileSync(path.join(__dirname, '../../config.ini'), 'utf-8'));
-        try {
-            if (config.bRefreshKeychainViaTimeline == true) {
+        if (config.bRefreshKeychainViaTimeline == true) {
+            try {
                 await compareAndUpdateKeychain();
             }
-        }
-        catch {
-            NeoLog.Error("Unable to connect to dillyapis! Falling back to existing keychains on your local disk. Some Encrypted Assets may not be accessible")
+            catch {
+                NeoLog.Error("Unable to connect to keychain endpoints! Falling back to existing keychains on your local disk. Some assets may not be decrypted!");
+            }
         }
         const certVersions = [{
             3700114: 1,
@@ -858,10 +858,10 @@ module.exports = {
 
             "42.10|42.20": [ //assuming first stage is active for 2 versions
                 //"DustyUpdate_A"
-               //"DustyUpdate_B"
-               //"DustyUpdate_C"
-               "DustyUpdate_D", //might make it a config but this is fine for now
-               "EventFlag.Event_S42_Birthday"
+                //"DustyUpdate_B"
+                //"DustyUpdate_C"
+                "DustyUpdate_D", //might make it a config but this is fine for now
+                "EventFlag.Event_S42_Birthday"
             ]
 
         })
@@ -1344,10 +1344,10 @@ module.exports = {
             )
         }
 
-         if (versionGlobal === 42) {
+        if (versionGlobal === 42) {
             timeline.channels['client-events']['states'][0]['activeEvents'].push(
                 {
-                    eventType: "EventFlag.Event_S42_Audiologs_4200", 
+                    eventType: "EventFlag.Event_S42_Audiologs_4200",
                     activeUntil: "9999-09-09T07:00:00.000Z",
                     activeSince: "2020-09-09T07:00:00.000Z"
                 },
@@ -1366,12 +1366,12 @@ module.exports = {
                     activeUntil: "9999-09-09T07:00:00.000Z",
                     activeSince: "2020-09-09T07:00:00.000Z"
                 },
-                 {
+                {
                     eventType: "EventFlag.Event_S42_SpriteMastery_P02",
                     activeUntil: "9999-09-09T07:00:00.000Z",
                     activeSince: "2020-09-09T07:00:00.000Z"
                 },
-                  {
+                {
                     eventType: "EventFlag.Event_S42_CosmicThunder_TutorialQuests",
                     activeUntil: "9999-09-09T07:00:00.000Z",
                     activeSince: "2020-09-09T07:00:00.000Z"
@@ -1391,22 +1391,22 @@ module.exports = {
                     activeUntil: "9999-09-09T07:00:00.000Z",
                     activeSince: "2020-09-09T07:00:00.000Z"
                 },
-                 {
+                {
                     eventType: "EventFlag.Event_S42_Story_BlockStack_BonusGoals",
                     activeUntil: "9999-09-09T07:00:00.000Z",
                     activeSince: "2020-09-09T07:00:00.000Z"
                 },
-                 {
+                {
                     eventType: "EventFlag.Event_S42_Story_BlockStack_P01",
                     activeUntil: "9999-09-09T07:00:00.000Z",
                     activeSince: "2020-09-09T07:00:00.000Z"
                 },
-                 {
+                {
                     eventType: "EventFlag.Event_S42_Story_BlockStack_P02",
                     activeUntil: "9999-09-09T07:00:00.000Z",
                     activeSince: "2020-09-09T07:00:00.000Z"
                 },
-                 {
+                {
                     eventType: "EventFlag.ProgressionTrack_S42",
                     activeUntil: "9999-09-09T07:00:00.000Z",
                     activeSince: "2020-09-09T07:00:00.000Z"

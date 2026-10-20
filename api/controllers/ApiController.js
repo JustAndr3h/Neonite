@@ -198,104 +198,104 @@ module.exports = {
 			};
 		};
 
-		if(version >= 17.40){
+		if (version >= 17.40) {
 			dataAssetBuilder(FrontendAssets, "FortCreativeDiscoverySurface", 2, "CreativeDiscoverySurface_Frontend", {
-                  "AnalyticsId": "v538",
-                  "TestCohorts": [
-                      {
-                          "AnalyticsId": "c-1v2_v2_c727",
-                          "CohortSelector": "PlayerDeterministic",
-                          "PlatformBlacklist": [],
-                          "CountryCodeBlocklist": [],
-                          "ContentPanels": [
-                              {
-                                  "NumPages": 1,
-                                  "AnalyticsId": "p1114",
-                                  "PanelType": "AnalyticsList",
-                                  "AnalyticsListName": "ByEpicNoBigBattle",
-                                  "CuratedListOfLinkCodes": [],
-                                  "ModelName": "",
-                                  "PageSize": 7,
-                                  "PlatformBlacklist": [],
-                                  "PanelName": "ByEpicNoBigBattle6Col",
-                                  "MetricInterval": "",
-                                  "CountryCodeBlocklist": [],
-                                  "SkippedEntriesCount": 0,
-                                  "SkippedEntriesPercent": 0,
-                                  "SplicedEntries": [],
-                                  "PlatformWhitelist": [],
-                                  "MMRegionBlocklist": [],
-                                  "EntrySkippingMethod": "None",
-                                  "PanelDisplayName": {
-                                      "Category": "Game",
-                                      "NativeCulture": "",
-                                      "Namespace": "CreativeDiscoverySurface_Frontend",
-                                      "LocalizedStrings": [],
-                                      "bIsMinimalPatch": false,
-                                      "NativeString": "LTMS",
-                                      "Key": "ByEpicNoBigBattle6Col"
-                                  },
-                                  "PlayHistoryType": "RecentlyPlayed",
-                                  "bLowestToHighest": false,
-                                  "PanelLinkCodeBlacklist": [],
-                                  "CountryCodeAllowlist": [],
-                                  "PanelLinkCodeWhitelist": [],
-                                  "FeatureTags": [
-                                    "col:5"
-                                ],
-                                  "MMRegionAllowlist": [],
-                                  "MetricName": ""
-                              },
-                              {
-                                  "NumPages": 2,
-                                  "AnalyticsId": "p969|88dba0c4e2af76447df43d1e31331a3d",
-                                  "PanelType": "AnalyticsList",
-                                  "AnalyticsListName": "EventPanel",
-                                  "CuratedListOfLinkCodes": [],
-                                  "ModelName": "",
-                                  "PageSize": 25,
-                                  "PlatformBlacklist": [],
-                                  "PanelName": "EventPanel",
-                                  "MetricInterval": "",
-                                  "CountryCodeBlocklist": [],
-                                  "SkippedEntriesCount": 0,
-                                  "SkippedEntriesPercent": 0,
-                                  "SplicedEntries": [],
-                                  "PlatformWhitelist": [],
-                                  "MMRegionBlocklist": [],
-                                  "EntrySkippingMethod": "None",
-                                  "PanelDisplayName": {
-                                      "Category": "Game",
-                                      "NativeCulture": "",
-                                      "Namespace": "CreativeDiscoverySurface_Frontend",
-                                      "LocalizedStrings": [],
-                                      "bIsMinimalPatch": false,
-                                      "NativeString": "Event LTMS",
-                                      "Key": "EventPanel"
-                                  },
-                                  "PlayHistoryType": "RecentlyPlayed",
-                                  "bLowestToHighest": false,
-                                  "PanelLinkCodeBlacklist": [],
-                                  "CountryCodeAllowlist": [],
-                                  "PanelLinkCodeWhitelist": [],
-                                  "FeatureTags": [
-                                      "col:6"
-                                  ],
-                                  "MMRegionAllowlist": [],
-                                  "MetricName": ""
-                              }
-                          ],
-                          "PlatformWhitelist": [],
-                          "SelectionChance": 0.1,
-                          "TestName": "testing"
-                        }
-                      ],
-                      "GlobalLinkCodeBlacklist": [],
-                      "SurfaceName": "CreativeDiscoverySurface_Frontend",
-                      "TestName": "20.10_4/11/2022_hero_combat_popularConsole",
-                      "primaryAssetId": "FortCreativeDiscoverySurface:CreativeDiscoverySurface_Frontend",
-                      "GlobalLinkCodeWhitelist": []
-                    });
+				"AnalyticsId": "v538",
+				"TestCohorts": [
+					{
+						"AnalyticsId": "c-1v2_v2_c727",
+						"CohortSelector": "PlayerDeterministic",
+						"PlatformBlacklist": [],
+						"CountryCodeBlocklist": [],
+						"ContentPanels": [
+							{
+								"NumPages": 1,
+								"AnalyticsId": "p1114",
+								"PanelType": "AnalyticsList",
+								"AnalyticsListName": "ByEpicNoBigBattle",
+								"CuratedListOfLinkCodes": [],
+								"ModelName": "",
+								"PageSize": 7,
+								"PlatformBlacklist": [],
+								"PanelName": "ByEpicNoBigBattle6Col",
+								"MetricInterval": "",
+								"CountryCodeBlocklist": [],
+								"SkippedEntriesCount": 0,
+								"SkippedEntriesPercent": 0,
+								"SplicedEntries": [],
+								"PlatformWhitelist": [],
+								"MMRegionBlocklist": [],
+								"EntrySkippingMethod": "None",
+								"PanelDisplayName": {
+									"Category": "Game",
+									"NativeCulture": "",
+									"Namespace": "CreativeDiscoverySurface_Frontend",
+									"LocalizedStrings": [],
+									"bIsMinimalPatch": false,
+									"NativeString": "LTMS",
+									"Key": "ByEpicNoBigBattle6Col"
+								},
+								"PlayHistoryType": "RecentlyPlayed",
+								"bLowestToHighest": false,
+								"PanelLinkCodeBlacklist": [],
+								"CountryCodeAllowlist": [],
+								"PanelLinkCodeWhitelist": [],
+								"FeatureTags": [
+									"col:5"
+								],
+								"MMRegionAllowlist": [],
+								"MetricName": ""
+							},
+							{
+								"NumPages": 2,
+								"AnalyticsId": "p969|88dba0c4e2af76447df43d1e31331a3d",
+								"PanelType": "AnalyticsList",
+								"AnalyticsListName": "EventPanel",
+								"CuratedListOfLinkCodes": [],
+								"ModelName": "",
+								"PageSize": 25,
+								"PlatformBlacklist": [],
+								"PanelName": "EventPanel",
+								"MetricInterval": "",
+								"CountryCodeBlocklist": [],
+								"SkippedEntriesCount": 0,
+								"SkippedEntriesPercent": 0,
+								"SplicedEntries": [],
+								"PlatformWhitelist": [],
+								"MMRegionBlocklist": [],
+								"EntrySkippingMethod": "None",
+								"PanelDisplayName": {
+									"Category": "Game",
+									"NativeCulture": "",
+									"Namespace": "CreativeDiscoverySurface_Frontend",
+									"LocalizedStrings": [],
+									"bIsMinimalPatch": false,
+									"NativeString": "Event LTMS",
+									"Key": "EventPanel"
+								},
+								"PlayHistoryType": "RecentlyPlayed",
+								"bLowestToHighest": false,
+								"PanelLinkCodeBlacklist": [],
+								"CountryCodeAllowlist": [],
+								"PanelLinkCodeWhitelist": [],
+								"FeatureTags": [
+									"col:6"
+								],
+								"MMRegionAllowlist": [],
+								"MetricName": ""
+							}
+						],
+						"PlatformWhitelist": [],
+						"SelectionChance": 0.1,
+						"TestName": "testing"
+					}
+				],
+				"GlobalLinkCodeBlacklist": [],
+				"SurfaceName": "CreativeDiscoverySurface_Frontend",
+				"TestName": "20.10_4/11/2022_hero_combat_popularConsole",
+				"primaryAssetId": "FortCreativeDiscoverySurface:CreativeDiscoverySurface_Frontend",
+				"GlobalLinkCodeWhitelist": []
+			});
 		}
 
 		if (config.FortniteGameConfig === true && version >= 24.00) {
@@ -627,13 +627,12 @@ module.exports = {
 	},
 
 	keychain: async function (req, res) {
-		try {
-			if(config.bRefreshKeychainViaKeychainEndpoint == true){
+		if (config.bRefreshKeychainViaKeychainEndpoint == true) {
+			try {
 				await compareAndUpdateKeychain();
+			} catch (err) {
+				NeoLog.Error("Unable to connect to keychain endpoints! Falling back to existing keychains on your local disk. Some assets may not be decrypted!");
 			}
-		}
-		catch {
-			NeoLog.Error("Unable to connect to dillyapis! Falling back to existing keychains on your local disk. Some Encrypted Assets may not be accessible")
 		}
 		const keychainArray = [
 			"46159C748694298198A52DC07476FDA3:4CLHOBqSrmS1RkG/SxZYi8Rc0zCmAKxXIBMMUHDl2ag=",
@@ -1130,10 +1129,10 @@ module.exports = {
 	},
 
 	magpieInventory: function (req, res) {
-		const {versionGlobal} = getVersionInfo(req);
+		const { versionGlobal } = getVersionInfo(req);
 		let metadata
-		if(versionGlobal === 41){metadata = "{\"StarterRelic\":\"EarthSprite_Variant_A\",\"EquippedVariant\":\"None\"}"}
-		if(versionGlobal === 42){metadata = "{\"StarterRelic\":\"Jonesy_Variant_A\",\"EquippedVariant\":\"None\"}"}
+		if (versionGlobal === 41) { metadata = "{\"StarterRelic\":\"EarthSprite_Variant_A\",\"EquippedVariant\":\"None\"}" }
+		if (versionGlobal === 42) { metadata = "{\"StarterRelic\":\"Jonesy_Variant_A\",\"EquippedVariant\":\"None\"}" }
 		if (config.relicStarterScreen && !misc.relicStarterScreenDone) {
 			res.json({
 				"accountId": req.params.accountId,
@@ -1291,10 +1290,10 @@ module.exports = {
 			res.set({
 				'Content-Type': "image/png",
 			});
-			if(response == null){
+			if (response == null) {
 				fs.createReadStream(path.join("./Fallback.png")).pipe(res);
 			}
-			else{
+			else {
 				const fileStream = fs.createWriteStream(cacheFile);
 				response.data.pipe(fileStream);
 				response.data.pipe(res);
@@ -1302,23 +1301,23 @@ module.exports = {
 		}
 	},
 
-	 contentLinkPackage: async function (req, res) {
-        /*
-         * This endpoint requires auth on Epics server
-         * The data in this cooked-content-package changes every update
-         * It gets routed trough a caching server which stores this and requests new ones when needed
-        */
-        const response = await axios.post(`https://epic-cache.neptune.cbn.lol/content/cooked-content`, {
-            linkCode: req.params.linkId,
-            role: req.query.role || "client",
-            client: req.query.platform || "windows",
-            majorVersion: parseInt(req.query.major),
-            minorVersion: parseInt(req.query.minor),
-            patch: parseInt(req.query.patch),
-            shaderformat: req.query.shaderformat || "",
-        });
-        res.json(response.data.result);
-    },
+	contentLinkPackage: async function (req, res) {
+		/*
+		 * This endpoint requires auth on Epics server
+		 * The data in this cooked-content-package changes every update
+		 * It gets routed trough a caching server which stores this and requests new ones when needed
+		*/
+		const response = await axios.post(`https://epic-cache.neptune.cbn.lol/content/cooked-content`, {
+			linkCode: req.params.linkId,
+			role: req.query.role || "client",
+			client: req.query.platform || "windows",
+			majorVersion: parseInt(req.query.major),
+			minorVersion: parseInt(req.query.minor),
+			patch: parseInt(req.query.patch),
+			shaderformat: req.query.shaderformat || "",
+		});
+		res.json(response.data.result);
+	},
 
 	cookedContentChunk: async function (req, res) {
 		res.setHeader("Content-Type", "application/octet-stream");
@@ -1526,5 +1525,1363 @@ module.exports = {
 		}
 		res.status(204).end()
 	},
+
+	installation: function (req, res) {
+		res.status(304)
+	},
+
+	operations: function (req, res) {
+		res.status(304)
+	},
+
+	statsigInitialize: function (req, res) {
+		res.json({
+			"feature_gates": {
+				"555581111": {
+					"name": "555581111",
+					"value": false,
+					"rule_id": "default",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2202221610": {
+					"name": "2202221610",
+					"value": false,
+					"rule_id": "7iAgUmIStDmb1WTpkwKzNU",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2202221632": {
+					"name": "2202221632",
+					"value": true,
+					"rule_id": "3uHQt1q21mEhOg3GPNYOoa",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2202221694": {
+					"name": "2202221694",
+					"value": true,
+					"rule_id": "2PqER4Ca0He6paXOSVQycP",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2202221697": {
+					"name": "2202221697",
+					"value": true,
+					"rule_id": "3Pc2BAUIdsaroXeOLpdevr",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2202221698": {
+					"name": "2202221698",
+					"value": true,
+					"rule_id": "6WYF59Mx1Dhp94euwSjseg",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2202221699": {
+					"name": "2202221699",
+					"value": false,
+					"rule_id": "d4wTc5hxHX4pEz4HkLduZ",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2202221700": {
+					"name": "2202221700",
+					"value": false,
+					"rule_id": "2TpnZC6ERorl0XfP7YPYnA",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2202221702": {
+					"name": "2202221702",
+					"value": true,
+					"rule_id": "6yFGLqdTTx2vW36kVPODDO",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2202221725": {
+					"name": "2202221725",
+					"value": true,
+					"rule_id": "6bQtAJJeXyY3COmdrTaiTE",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2202221726": {
+					"name": "2202221726",
+					"value": false,
+					"rule_id": "G1482dz4tycSX28WWBMUM",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2202221727": {
+					"name": "2202221727",
+					"value": true,
+					"rule_id": "55T5w1D7EAf1T6GbnZRcIK",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2202221728": {
+					"name": "2202221728",
+					"value": true,
+					"rule_id": "2FzoPLDvu26xi82CCXKGfa",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2202221729": {
+					"name": "2202221729",
+					"value": false,
+					"rule_id": "64foQgTNkzBeR1xIJ7QiR2",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2202221730": {
+					"name": "2202221730",
+					"value": false,
+					"rule_id": "3ah39zoyxuBdBXqBwTx9B5",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2202221731": {
+					"name": "2202221731",
+					"value": true,
+					"rule_id": "2RqVsIHae1Rv9EJsXaUz6n",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2202221732": {
+					"name": "2202221732",
+					"value": false,
+					"rule_id": "1HYxprEgGcBfuVoB0jUmAX",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2222296852": {
+					"name": "2222296852",
+					"value": false,
+					"rule_id": "1o90kLNHJUycjnz6vRVtCA:0.00:2",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2287796877": {
+					"name": "2287796877",
+					"value": true,
+					"rule_id": "32RVxT1SSqEyqlteMTYCet",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2287796878": {
+					"name": "2287796878",
+					"value": false,
+					"rule_id": "4qzqPk5dhqSju6NzxlwmT7:50.00:1",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2287796939": {
+					"name": "2287796939",
+					"value": false,
+					"rule_id": "3PhE8VP9h1813PaOS7pgv:0.00:2",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2287796940": {
+					"name": "2287796940",
+					"value": false,
+					"rule_id": "2dsFbkPkLNkwsvDRxW596Y:0.00:2",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2287796944": {
+					"name": "2287796944",
+					"value": false,
+					"rule_id": "3BhQoUXmyjsJ0uBtC6UPB6:0.00:1",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2287796970": {
+					"name": "2287796970",
+					"value": false,
+					"rule_id": "3pUgAz1sw0ZzQ1oMLOuRXR:0.00:2",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2981059881": {
+					"name": "2981059881",
+					"value": false,
+					"rule_id": "default",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"3433576047": {
+					"name": "3433576047",
+					"value": false,
+					"rule_id": "default",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"3458750188": {
+					"name": "3458750188",
+					"value": false,
+					"rule_id": "default",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"3652324091": {
+					"name": "3652324091",
+					"value": false,
+					"rule_id": "default",
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"4016974275": {
+					"name": "4016974275",
+					"value": false,
+					"rule_id": "default",
+					"id_type": "userID",
+					"secondary_exposures": []
+				}
+			},
+			"dynamic_configs": {
+				"4221649": {
+					"name": "4221649",
+					"value": {
+						"show_discover_redux_frontend": true
+					},
+					"rule_id": "2Plzg4RFSODsWV7ckaFy54",
+					"group": "2Plzg4RFSODsWV7ckaFy54",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": true,
+					"is_user_in_experiment": true,
+					"secondary_exposures": []
+				},
+				"71391204": {
+					"name": "71391204",
+					"value": {
+						"shop_frame_break": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"230199021": {
+					"name": "230199021",
+					"value": {
+						"epic_rewards_text": "Earn",
+						"epic_button_position": "Left",
+						"epic_styling_emphasis": true,
+						"display_epic_rewards_earned_back_amount": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Control",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"is_in_layer": true,
+					"explicit_parameters": [
+						"epic_rewards_text"
+					],
+					"secondary_exposures": []
+				},
+				"285639926": {
+					"name": "285639926",
+					"value": {
+						"allow_leaving_today": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"286932707": {
+					"name": "286932707",
+					"value": {
+						"prefix_ai_search": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"290071357": {
+					"name": "290071357",
+					"value": {
+						"show_bonus_percentage": true,
+						"use_new_highlight_style": true,
+						"bonus_amount_position": "Top"
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test B",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"384502199": {
+					"name": "384502199",
+					"value": {
+						"BattlePassTopNav": "False"
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Control",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"572381754": {
+					"name": "572381754",
+					"value": {
+						"show_preview": true
+					},
+					"rule_id": "5Vki6ANSjXaHDGGwTo7vyO",
+					"group": "5Vki6ANSjXaHDGGwTo7vyO",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": true,
+					"is_user_in_experiment": true,
+					"secondary_exposures": []
+				},
+				"763770983": {
+					"name": "763770983",
+					"value": {
+						"curated_for_you": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"861704309": {
+					"name": "861704309",
+					"value": {},
+					"rule_id": "prestart",
+					"group": "prestart",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"946310972": {
+					"name": "946310972",
+					"value": {
+						"change_shop_tile_highlight": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"959370736": {
+					"name": "959370736",
+					"value": {},
+					"rule_id": "inlineTargetingRules",
+					"group": "inlineTargetingRules",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": true,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"967422528": {
+					"name": "967422528",
+					"value": {
+						"present_pass_screen": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"989400328": {
+					"name": "989400328",
+					"value": {
+						"enabled": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"1126023266": {
+					"name": "1126023266",
+					"value": {},
+					"rule_id": "prestart",
+					"group": "prestart",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"1218004950": {
+					"name": "1218004950",
+					"value": {
+						"remove_vb_pdp": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"1253340277": {
+					"name": "1253340277",
+					"value": {},
+					"rule_id": "prestart",
+					"group": "prestart",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"1258624511": {
+					"name": "1258624511",
+					"value": {
+						"starts_on_discover": false
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Control",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"1437251432": {
+					"name": "1437251432",
+					"value": {},
+					"rule_id": "inlineTargetingRules",
+					"group": "inlineTargetingRules",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"1443062455": {
+					"name": "1443062455",
+					"value": {
+						"enabled": true
+					},
+					"rule_id": "76O54IDRWrOxZDldKWyMUM",
+					"group": "76O54IDRWrOxZDldKWyMUM",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": true,
+					"is_user_in_experiment": true,
+					"secondary_exposures": []
+				},
+				"1451028047": {
+					"name": "1451028047",
+					"value": {
+						"event_data": 0,
+						"classification": ""
+					},
+					"rule_id": "default",
+					"group": "default",
+					"is_device_based": false,
+					"passed": false,
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"1481234458": {
+					"name": "1481234458",
+					"value": {},
+					"rule_id": "inlineTargetingRules",
+					"group": "inlineTargetingRules",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": true,
+					"is_user_in_experiment": false,
+					"secondary_exposures": [
+						{
+							"gate": "3458750188",
+							"gateValue": "false",
+							"ruleID": "default"
+						}
+					]
+				},
+				"1545079096": {
+					"name": "1545079096",
+					"value": {
+						"prefix_ai_search": false
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Control",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"1547953407": {
+					"name": "1547953407",
+					"value": {
+						"show_shop_tab_first": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"1635754258": {
+					"name": "1635754258",
+					"value": {},
+					"rule_id": "prestart",
+					"group": "prestart",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"1646517092": {
+					"name": "1646517092",
+					"value": {},
+					"rule_id": "prestart",
+					"group": "prestart",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"1707961912": {
+					"name": "1707961912",
+					"value": {},
+					"rule_id": "default",
+					"group": "default",
+					"is_device_based": false,
+					"passed": false,
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"1765970767": {
+					"name": "1765970767",
+					"value": {},
+					"rule_id": "inlineTargetingRules",
+					"group": "inlineTargetingRules",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": true,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"1802360987": {
+					"name": "1802360987",
+					"value": {
+						"try_on_button": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"1805664155": {
+					"name": "1805664155",
+					"value": {
+						"show_epic_reward_highlight": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"1845541341": {
+					"name": "1845541341",
+					"value": {
+						"allow_new_pdp": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"1865877984": {
+					"name": "1865877984",
+					"value": {
+						"show_pdp": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"1905358901": {
+					"name": "1905358901",
+					"value": {
+						"show_compatibility_tags_in_about_popup": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"1938138118": {
+					"name": "1938138118",
+					"value": {
+						"AssetCollectionEnabled": false,
+						"SampleSize": 1001,
+						"MaxExpectedReads": 200002
+					},
+					"rule_id": "6qH1qyLVeVkywIaZhUkqVI-6qH1qx6SMDb4diD3GMoNCG",
+					"group": "6qH1qyLVeVkywIaZhUkqVI-6qH1qx6SMDb4diD3GMoNCG",
+					"is_device_based": false,
+					"passed": false,
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"1949734410": {
+					"name": "1949734410",
+					"value": {},
+					"rule_id": "prestart",
+					"group": "prestart",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"2110242324": {
+					"name": "2110242324",
+					"value": {
+						"allow_best_sellers_row": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Launched Group",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"2171137552": {
+					"name": "2171137552",
+					"value": {
+						"interval_mins": 10
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Control",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"2181315192": {
+					"name": "2181315192",
+					"value": {},
+					"rule_id": "prestart",
+					"group": "prestart",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"2213923408": {
+					"name": "2213923408",
+					"value": {},
+					"rule_id": "prestart",
+					"group": "prestart",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"2297270161": {
+					"name": "2297270161",
+					"value": {
+						"ShowBattlePass": "ShowBattlePass"
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"2359295038": {
+					"name": "2359295038",
+					"value": {},
+					"rule_id": "default",
+					"group": "default",
+					"is_device_based": false,
+					"passed": false,
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"2437502778": {
+					"name": "2437502778",
+					"value": {
+						"show_reactions": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"2504539403": {
+					"name": "2504539403",
+					"value": {
+						"bCrewOnRightInUpsell": true,
+						"bCrew50PercentInUpsell": true,
+						"bCrewAsSliver": false,
+						"bAnimateCrewBG": false
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Control-Half-BP-Half-Crew-Static",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"2513015211": {
+					"name": "2513015211",
+					"value": {
+						"enabled": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "enabled",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"2530865220": {
+					"name": "2530865220",
+					"value": {
+						"section_id": "for_you_row_top",
+						"show_best_sellers": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Top",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"2566637081": {
+					"name": "2566637081",
+					"value": {},
+					"rule_id": "inlineTargetingRules",
+					"group": "inlineTargetingRules",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": true,
+					"is_user_in_experiment": false,
+					"secondary_exposures": [
+						{
+							"gate": "2222296852",
+							"gateValue": "false",
+							"ruleID": "1o90kLNHJUycjnz6vRVtCA:0.00:2"
+						}
+					]
+				},
+				"2589358493": {
+					"name": "2589358493",
+					"value": {
+						"enabled": true
+					},
+					"rule_id": "78LeLdcJgQ8EpdxqJAY5Q9",
+					"group": "78LeLdcJgQ8EpdxqJAY5Q9",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": true,
+					"is_user_in_experiment": true,
+					"secondary_exposures": []
+				},
+				"2618425241": {
+					"name": "2618425241",
+					"value": {
+						"epic_rewards_text": "Earn",
+						"epic_button_position": "Left",
+						"epic_styling_emphasis": true,
+						"display_epic_rewards_earned_back_amount": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Control",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"is_in_layer": true,
+					"explicit_parameters": [
+						"epic_button_position"
+					],
+					"secondary_exposures": []
+				},
+				"2633953390": {
+					"name": "2633953390",
+					"value": {
+						"epic_rewards_text": "Earn",
+						"epic_button_position": "Left",
+						"epic_styling_emphasis": true,
+						"display_epic_rewards_earned_back_amount": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"is_in_layer": true,
+					"explicit_parameters": [
+						"epic_styling_emphasis"
+					],
+					"secondary_exposures": []
+				},
+				"2641464196": {
+					"name": "2641464196",
+					"value": {
+						"show_discover_web_view": false
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Control",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"2827211687": {
+					"name": "2827211687",
+					"value": {},
+					"rule_id": "inlineTargetingRules",
+					"group": "inlineTargetingRules",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": true,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"2886651603": {
+					"name": "2886651603",
+					"value": {},
+					"rule_id": "inlineTargetingRules",
+					"group": "inlineTargetingRules",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"2952133295": {
+					"name": "2952133295",
+					"value": {
+						"display_content": true
+					},
+					"rule_id": "5wkX3Per4mg9JS7xRlmZ1p:override",
+					"group": "5wkX3Per4mg9JS7xRlmZ1p:override",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"2973146634": {
+					"name": "2973146634",
+					"value": {
+						"enable_new_ui": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"3074873282": {
+					"name": "3074873282",
+					"value": {
+						"use_legacy_fn_discover": false
+					},
+					"rule_id": "3XEiVYXLDKfds4iyMlOiau",
+					"group": "3XEiVYXLDKfds4iyMlOiau",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": true,
+					"is_user_in_experiment": true,
+					"secondary_exposures": []
+				},
+				"3139486296": {
+					"name": "3139486296",
+					"value": {
+						"epic_rewards_text": "Earn",
+						"epic_button_position": "Left",
+						"epic_styling_emphasis": true,
+						"display_epic_rewards_earned_back_amount": true
+					},
+					"rule_id": "targetingGate",
+					"group": "targetingGate",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"is_in_layer": true,
+					"explicit_parameters": [
+						"display_epic_rewards_earned_back_amount"
+					],
+					"secondary_exposures": [
+						{
+							"gate": "3458750188",
+							"gateValue": "false",
+							"ruleID": "default"
+						}
+					]
+				},
+				"3142253616": {
+					"name": "3142253616",
+					"value": {},
+					"rule_id": "inlineTargetingRules",
+					"group": "inlineTargetingRules",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": [
+						{
+							"gate": "2222296852",
+							"gateValue": "false",
+							"ruleID": "1o90kLNHJUycjnz6vRVtCA:0.00:2"
+						}
+					]
+				},
+				"3259557658": {
+					"name": "3259557658",
+					"value": {
+						"show_shop_action_icon": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"3318762208": {
+					"name": "3318762208",
+					"value": {},
+					"rule_id": "prestart",
+					"group": "prestart",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"3322011396": {
+					"name": "3322011396",
+					"value": {},
+					"rule_id": "prestart",
+					"group": "prestart",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"3401934024": {
+					"name": "3401934024",
+					"value": {
+						"present_pass_upsell": false
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Control",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"3402737484": {
+					"name": "3402737484",
+					"value": {},
+					"rule_id": "prestart",
+					"group": "prestart",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"3449026671": {
+					"name": "3449026671",
+					"value": {},
+					"rule_id": "prestart",
+					"group": "prestart",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"3456888934": {
+					"name": "3456888934",
+					"value": {
+						"enable_enforce_bandwidth": true,
+						"bandwidth_percentage_to_use": 0.5,
+						"rollout_percentage": 100,
+						"priority_weight_exponent": 3,
+						"enable_additional_gameplay_protection": true,
+						"gameplay_quality_padding_loss_lower": 0.015,
+						"gameplay_quality_padding_loss_upper": 0.05,
+						"gameplay_quality_padding_latency_lower": 2,
+						"gameplay_quality_padding_latency_upper": 4,
+						"gameplay_quality_recovery_time_seconds": 0.5,
+						"gameplay_quality_padding_step_exp": 4,
+						"gameplay_quality_scoring_delta": 0,
+						"gameplay_quality_padding_latency_shift_ms": 15
+					},
+					"rule_id": "7IpmoSXVQFqPgcmdsfwf0w:90.00:3-7IpmoRiTonhkWMOhR7ABHu",
+					"group": "7IpmoSXVQFqPgcmdsfwf0w:90.00:3-7IpmoRiTonhkWMOhR7ABHu",
+					"is_device_based": false,
+					"passed": true,
+					"id_type": "userID",
+					"secondary_exposures": []
+				},
+				"3479277620": {
+					"name": "3479277620",
+					"value": {
+						"set_default_squad_fill": false
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Control",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"3547335595": {
+					"name": "3547335595",
+					"value": {
+						"shop_optimized_touch_layout": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"3577791019": {
+					"name": "3577791019",
+					"value": {},
+					"rule_id": "prestart",
+					"group": "prestart",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"3658215525": {
+					"name": "3658215525",
+					"value": {
+						"show_new_crew_ui": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"3674534304": {
+					"name": "3674534304",
+					"value": {
+						"button_type": "base yellow color"
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Control - yellow",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"3695558147": {
+					"name": "3695558147",
+					"value": {},
+					"rule_id": "inlineTargetingRules",
+					"group": "inlineTargetingRules",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"3720261994": {
+					"name": "3720261994",
+					"value": {},
+					"rule_id": "inlineTargetingRules",
+					"group": "inlineTargetingRules",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"3798827702": {
+					"name": "3798827702",
+					"value": {},
+					"rule_id": "prestart",
+					"group": "prestart",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"3813797711": {
+					"name": "3813797711",
+					"value": {},
+					"rule_id": "prestart",
+					"group": "prestart",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"3841014879": {
+					"name": "3841014879",
+					"value": {},
+					"rule_id": "prestart",
+					"group": "prestart",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"3888124721": {
+					"name": "3888124721",
+					"value": {},
+					"rule_id": "prestart",
+					"group": "prestart",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"4048787415": {
+					"name": "4048787415",
+					"value": {
+						"allow_regional_best_sellers": true
+					},
+					"rule_id": "launchedGroup",
+					"group": "launchedGroup",
+					"group_name": "Test - Test",
+					"is_device_based": false,
+					"id_type": "userID",
+					"is_experiment_active": false,
+					"is_user_in_experiment": false,
+					"secondary_exposures": []
+				},
+				"4171542050": {
+					"name": "4171542050",
+					"value": {
+						"bEnabled": true,
+						"StableThreshold": 0.05,
+						"BadThreshold": 0.05,
+						"StableMinTracked": 4000,
+						"StableHoldSeconds": 2,
+						"bForceOverride": false
+					},
+					"rule_id": "default",
+					"group": "default",
+					"is_device_based": false,
+					"passed": false,
+					"id_type": "userID",
+					"secondary_exposures": []
+				}
+			},
+			"layer_configs": {
+				"2022173360": {
+					"name": "2022173360",
+					"value": {
+						"epic_rewards_text": "Earn",
+						"epic_button_position": "Left",
+						"epic_styling_emphasis": true,
+						"display_epic_rewards_earned_back_amount": true
+					},
+					"rule_id": "default",
+					"group": "default",
+					"is_device_based": false,
+					"explicit_parameters": [],
+					"id_type": "userID",
+					"secondary_exposures": [
+						{
+							"gate": "3458750188",
+							"gateValue": "false",
+							"ruleID": "default"
+						}
+					],
+					"undelegated_secondary_exposures": [
+						{
+							"gate": "3458750188",
+							"gateValue": "false",
+							"ruleID": "default"
+						}
+					]
+				}
+			},
+			"sdkParams": {},
+			"has_updates": true,
+			"generator": "scrapi-nest",
+			"time": 1792101160309,
+			"company_lcut": 1792101160309,
+			"evaluated_keys": {
+				"userID": "e7c388664e5442e89f30b396d9fa7183",
+				"stableID": "0cb69ef4-af6d-4d20-9da8-244976986ce1"
+			},
+			"hash_used": "djb2",
+			"derived_fields": {
+				"ip": "90.246.124.179",
+				"country": "GB",
+				"appVersion": "++Fortnite+Release-42.40-CL-59086525",
+				"app_version": "++Fortnite+Release-42.40-CL-59086525",
+				"browserName": "Other",
+				"browserVersion": "0.0.0",
+				"osName": "Windows",
+				"osVersion": "0.0.0",
+				"browser_name": "Other",
+				"browser_version": "0.0.0",
+				"os_name": "Windows",
+				"os_version": "0.0.0"
+			},
+			"hashed_sdk_key_used": "1665495496",
+			"can_record_session": true,
+			"recording_blocked": false,
+			"session_recording_rate": 1,
+			"auto_capture_settings": {
+				"disabled_events": {
+					"page_view": true,
+					"page_view_end": true,
+					"click": true,
+					"scroll": true,
+					"session_start": true,
+					"form_submit": true,
+					"error": true,
+					"performance": true,
+					"dead_click": true,
+					"rage_click": true,
+					"web_vitals": true,
+					"copy": true
+				}
+			},
+			"target_app_used": "fn_client"
+		})
+	},
+
+	statsigRgstr: function (req, res) {
+		res.json({ "success": true })
+	}
+
 
 };
